@@ -10,8 +10,8 @@
 
 <br>
 
-WM-Battery-Notifier     | Date Created: March 25 2023
-BatteryNotifier         | Date Created: June 26 2023
+WM-Battery-Notifier     | Date Created: March 25 2023   <br>
+BatteryNotifier         | Date Created: June 26 2023    <br>
 
 <br>
 
