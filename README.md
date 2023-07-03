@@ -13,8 +13,8 @@
 
 <br>
 
-WM-Battery-Notifier     | Date Created: March 25 2023   <br>
-BatteryNotifier         | Date Created: June 26 2023    <br>
+WM-Battery-Notifier | Date Created: March 25 2023 <br>
+BatteryNotifier | Date Created: June 26 2023 <br>
 
 <br>
 
@@ -22,7 +22,7 @@ BatteryNotifier         | Date Created: June 26 2023    <br>
 
 <br>
 
-SessionManager          | Date Created:
+SessionManager | Date Created:
 
 <br>
 
@@ -30,7 +30,7 @@ SessionManager          | Date Created:
 
 <br>
 
-Monitor                 | Date Created:
+Monitor | Date Created:
 
 <br>
 
