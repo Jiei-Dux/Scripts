@@ -1,3 +1,5 @@
 # Scripts
 
-Yes
+##Types:
+
+WM-Battery-Notifier
