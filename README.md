@@ -1,12 +1,11 @@
 # Scripts
 
+<i>These Scripts does exactly what their file names say.</i>
+
+
 <br>
 
 <b> Types: </b>
-
-<br>
-
-<i>These Scripts does exactly what their file names say.</i>
 
 <br>
 
