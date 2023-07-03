@@ -1,5 +1,5 @@
 # Scripts
 
-## Types:
+<b> Types: </b>
 
 WM-Battery-Notifier
