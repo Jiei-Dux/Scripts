@@ -13,8 +13,8 @@
 
 <br>
 
-WM-Battery-Notifier | Date Created: March 25 2023 <br>
-BatteryNotifier | Date Created: June 26 2023 <br>
+WM-Battery-Notifier ( uses acpi and dunst ) | Date Created: March 25 2023 <br>
+BatteryNotifier (uses upower and libnotify ) | Date Created: June 26 2023 <br>
 
 <br>
 
