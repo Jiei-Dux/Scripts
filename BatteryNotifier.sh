@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# || THE CODE BELOW CHECKS FOR OTHER INSTANCES || #
+# || THE CODE BELOW KILLS DUPLICATE INSTANCES || #
 
 for pid in $(pgrep -f $0);
 do
@@ -10,7 +10,7 @@ do
 	fi
 done
 
-# || THE CODE ABOVE CHECKS FOR OTHER INSTANCES || #
+# || THE CODE ABOVE KILLS DUPLICATE INSTANCES || #
 
 
 
@@ -44,13 +44,14 @@ do
 
 	if [ "$STATE" -eq 1 ]; then
 		if [ "$PCT" -le 20 ]; then
-			notify-send -t 1000 -u normal "Battery Low. Plug the Charger!"
-			play "/home/dux/Music/SFX/Low Battery SFX.mp3"
+			notify-send --app-name "PAY ATTENTION!!!" -t 2000 -u normal "Battery Low. Plug the Charger!"
+			#play "/home/dux/Music/SFX/Low Battery SFX.mp3"
+			play "/usr/share/sounds/Oxygen-Sys-App-Error-Serious.ogg"
 		fi
 	elif [ "$STATE" -eq 0 ]; then
 		if [ "$PCT" -ge 85 ]; then
-			notify-send -t 1000 -u normal "Battery Full. Unplug the Charger!"
-			play "/home/dux/Music/SFX/Niko Niko Nii SFX.mp3"
+			notify-send --app-name "PAY ATTENTION!!!" -t 2000 -u normal "Battery Full. Unplug the Charger!"
+			play "/usr/share/sounds/Niko-Niko-Nii-SFX.ogg"
 		fi
 	fi
 	
